@@ -1,0 +1,7 @@
+<app-add-shoppingitem (addItem)="addItem($event)"></app-add-shoppingitem>
+<app-shoppingitem
+    *ngFor="let item of shoppingItems"
+    [shoppingItem]="item"
+    (deleteShopping)="deleteItem($event)"
+>
+</app-shoppingitem>

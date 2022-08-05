@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+  }
+  
+  #name {
+    flex: 9;
+    padding: 5px;
+  }
+  
+  #amount {
+    flex: 3;
+  }
